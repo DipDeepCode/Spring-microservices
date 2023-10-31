@@ -1,0 +1,13 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: eclient-2
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka
+
+
